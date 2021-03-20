@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fast Food Recipe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+</head>
+<body>
+
+<div class="header">
+  <img class="mySlides" src="../image/epizza.jpg" style="height:300px; width:900px;" >
+  <img class="mySlides" src="../image/pizza-1.jpg" style="height:300px; width:900px;" >
+  <img class="mySlides" src="../image/spegetti.jpg" style="height:300px; width:900px;" >
+  <img class="mySlides" src="../image/pasta.jpg" style="height:300px; width:900px;" >
+</div>
+
+<ul class="navbar">
+  <li id="nb"><a class="active" href="#home">Home</a></li>
+  <li id="nb"><a href="cook.html">Start cook</a></li>
+  <li id="nb"><a href="#contact">Contact</a></li>
+</ul>
+
+<h3>Why Choosing Homemade??</h3>
+<h3>Benefits of Homemade</h3>
+<ol>
+  <li>Saves money</li>
+  <p>Eating homemadde foods is usually much cheaper than eating at a restaurant or buying processed foods from the market. When we eat at a restaurant, we pay for not only the food, but also the costs of running that business. The lights,the water, the building, and the staff — in addition to the meal we are eating. The same goes for the pre-made or frozen meals at grocery stores.</p>
+  <li>Healthier ingredients</li>
+  <p>Many commercially prepared foods are high in fat, salt, and sugar. When we prepare our own food, we know exactly which ingredients and how much of each are going into our food. When we cook at home, we are in control. McDonald’s fries have 19 ingredients. We can make them at home with far less — and they will taste just as good. A favorite at my house is potatoes cut into wedges, olive oil, salt, pepper, and cayenne pepper. Put these in a Ziploc bag to mix together. Then place in the oven on a pan for about 30 minutes at 400 F. It’s only five ingredients, and tastes fabulous. </p>
+  <li>Brings family together</li>
+  <p>Eating at home gives the entire family time to talk about their day.
+     Studies show that when we eat together, our kids and family are much healthier. Eating together is linked to less obesity, kids doing better in school, and less substance abuse within the family.”
+     Involving your children in food preparation (maybe by asking them to read the recipe out loud or mix ingredients) is not only a fun thing to do, but also a great way to teach them healthy eating habits.</p>
+
+</ol>
+</body>
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+</html>

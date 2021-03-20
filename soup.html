@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Mushroom Soup recipe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <ul class="navbar">
+            <li id="nbr"><button type="button" onclick="back()">Back</button></li>
+            <li id="nbr"><button type="button" onclick="home()">Home</button></li>
+          </ul>
+        <h2>Mushroom Soup today</h2>
+        <h4>Recipe for Mushroom Soup</h4>
+        <img src="../image/soup.jpg" alt="soup" style="height:200px; width:200px;">
+        <br>
+        <h4 style="margin-bottom: -5px;">Ingredients</h4>
+        <hr>
+        <ul>
+            <li>3 tablespoon unsalted butter</li>
+            <li>2 garlic cloves, minced</li>
+            <li>1 shallot, finely chopped</li>
+            <li>4 ounce crimini mushrooms, chopped</li>
+            <li>4 ounce white button mushrooms, chopped</li>
+            <li>2 tablespoon all-purpose flour</li>
+            <li>3 cup chicken stock</li>
+            <li>1/4 teaspoon fine sea salt, or to taste</li>
+            <li>1/4 teaspoon ground black pepper, or to taste</li>
+            <li>Sliced sautéed mushrooms for garnish, optional</li>
+            <li>Chopped parsley for garnish, optional</li>
+        </ul>
+        <h4 style="margin-bottom: -5px;">Method</h4>
+        <hr>
+        <ol>
+            <li>Melt 2 tablespoons of the butter in a large pot such as a Dutch oven over medium-high heat. Add the garlic and shallot, cook for 1 minute, until they begin to soften. Add the mushrooms and cook for about 3 minutes, until tender and browned. Transfer all the contents of the pot to a bowl.</li>
+            <li>Add the remaining 1 tablespoon of butter to the pot. Once melted, sprinkle in the flour and whisk it quickly into a paste. Reduce the heat to medium. Add the stock a little at a time, whisking out the clumps between each addition.</li>
+            <li>Increase the heat back to medium-high and allow the soup to simmer well for 3 minutes. Add the mushrooms back to the pot and continue to cook for 2 more minutes. The stock will thicken slightly to be somewhat creamy.</li>
+            <li>Let cook for 3 to 4 minutes, then ladle into bowls. Garnish with mushrooms and parsley, if desired.</li>
+        </ol>
+    </body>
+    <script>
+        function back() {
+          location.replace("cook.html")
+        }
+        function home() {
+          location.replace("recipe.html")
+        }
+        </script>
+</html>

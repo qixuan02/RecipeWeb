@@ -1,0 +1,74 @@
+body {
+  font-size: 28px;
+  /* background-image: url(pizzablack.jpg); */
+  /* background-repeat: no-repeat; */
+  background-color: bisque;
+  color:grey;
+  margin-left: 30px;
+}
+
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  margin-top: 10px;
+}
+
+#nb{
+  float: left;
+}
+
+#nbr{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:silver;
+}
+
+.active {
+  background-color:purple;
+}
+.mySlides {display:none;}
+
+button{
+  float: right;
+  color: white;
+  background-color: purple;
+  padding: 8px;
+}
+h5{
+  color: black;
+}
+ol,ul li{
+  font-size: 20px;
+}
+p{
+  font-size: 20px;
+  
+}
+ol li{
+  margin-bottom: 2%;
+}
+ul li{
+  margin-bottom: 1%;
+}
+h4{
+  font-style: italic;
+}
+h2{
+  font-family:sans-serif;
+}

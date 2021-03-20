@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Pasta recipe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <ul class="navbar">
+            <li id="nbr"><button type="button" onclick="back()">Back</button></li>
+            <li id="nbr"><button type="button" onclick="home()">Home</button></li>
+          </ul>
+        <h2>Pasta today</h2>
+        <h4>Recipe for pasta</h4>
+        <img src="../image/pasta.jpg" alt="pizza" style="height:200px; width:200px;">
+        <br>
+        <h4 style="margin-bottom: -5px;">Ingredients</h4>
+        <hr>
+        <ul>
+            <li>1 lb/500 g dried spaghetti (or other long pasta)</li> 
+        </ul>
+        <h5>PASTA WITH OLIVE OIL & GARLIC (AGLIO E OLIO):</h5>
+        <ul>
+            <li>1/2 cup extra virgin olive oil</li>
+            <li>10 garlic cloves , sliced</li>
+            <li>1 tbsp red chilli flakes</li>
+            <li>1/4 cup chopped parsley</li>
+        </ul>
+        <h4 style="margin-bottom: -5px;">Method</h4>
+        <hr>
+        <h5>BASE DIRECTIONS</h5>
+        <ol>
+            <li>Cook 1lb/500g of dried spaghetti (or any other long dried pasta) in a large pot of salted boiling water per packet MINUS 1 minute.</li>
+            <li>Meanwhile, prepare OLIVE OIL & GARLIC (AGLIO E OLIO)</li>
+            <li>When pasta is ready, scoop out 1 cup of pasta cooking water, and drain pasta.</li>
+            <li>Add pasta into chosen sauce with 3/4 cup pasta cooking water. Toss pasta until sauce thickens and sticks to pasta (called "emulsifying" the sauce), 1 - 2 minutes. Use more pasta water if needed to loosen sauce.</li>
+            <li>Season with salt and pepper to taste. Finish pasta per chosen recipe.</li>
+        </ol>
+        <h5>PASTA WITH OLIVE OIL & GARLIC (AGLIO E OLIO):</h5>
+        <ol>
+            <li>Heat oil over medium high heat. Add garlic and cook until golden - be careful not to burn it.  </li>
+            <li>Toss with pasta and cooking water per Base Directions. Toss through parsley and chilli flakes, serve with parmesan.</li>
+        </ol>
+    </body>
+    <script>
+        function back() {
+          location.replace("cook.html")
+        }
+        function home() {
+          location.replace("recipe.html")
+        }
+        </script>
+</html>
